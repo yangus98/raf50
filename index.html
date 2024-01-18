@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Buon compleanno Raf!</title>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCa53vkdxiAPBX9wOtzO7gqn9KvnZb0nak"></script>
+    <link
+      rel="stylesheet"
+      href="styles/flexbox-center-container.css"
+      media="all"
+    />
+    <link rel="stylesheet" href="styles/system-fonts.css" media="all" />
+    <link rel="stylesheet" href="styles/style.css" media="all" />
+    <link rel="icon" type="image/x-icon" href="/birthday-counter/assets/cake.png">
+  </head>
+
+  <body>
+    <div class="counter-section">
+    <h1>Lo sai che il 21 aprile Raf compie 50 anni ?!?!!?!</h1>
+    <canvas id="c"></canvas>
+    <canvas id="confetti"></canvas>
+    <div class="container" id="count">
+      <h1 id="head">Mancano solo:</h1>
+      <ul>
+        <li><span id="day"></span>giorni</li>
+        <li><span id="hour"></span>ore</li>
+        <li><span id="minute"></span>minuti</li>
+        <li><span id="second"></span>secondi</li>
+      </ul>
+    </div>
+    <div id="merrywrap" class="merrywrap">
+      <canvas id="snowfall"></canvas>
+      <div class="giftbox">
+        <div class="cover">
+          <div></div>
+        </div>
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+    <div class="images">
+      <img src="/birthday-counter/assets/IMG-20240117-WA0008.jpg" class="format-image">
+      <img src="/birthday-counter/assets/IMG-20240117-WA0010.jpg" class="format-image">
+      <img src="/birthday-counter/assets/IMG-20240117-WA0014.jpg" class="format-image">
+      <img src="/birthday-counter/assets/IMG-20240117-WA0024.jpg" class="format-image">
+      <img src="/birthday-counter/assets/IMG-20240117-WA0025.jpg" class="format-image">
+      <img src="/birthday-counter/assets/IMG-20240117-WA0031.jpg" class="format-image">
+    </div>
+
+    <div class="map-section">
+    <div id="map" style="width:80%; height: 400px; margin: auto;"></div>
+    <div class="map-description">
+      Festeggeremo il 27 aprile ad Aversa, ore 12.45, presso la pizzeria
+      <a href="https://www.tripadvisor.it/Restaurant_Review-g804150-d4130833-Reviews-Pizza_Pasta-Aversa_Province_of_Caserta_Campania.html" title="vedi le recensioni!">"Pasta e Pizza"</a> in Via Lennie Tristano 14
+    </div>
+    </div>
+    </div>
+
+    <div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/gbmlxbd528ank90m" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><div style="display:flex;align-items:center;"><img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Made with Padlet"></div></a></div></div>
+    <footer>
+      Made with love and fun by Giuseppe Bianconi
+    </footer>
+  </body>
+  <script src="scripts/confetti.min.js" charset="utf-8"></script>
+  <script src="scripts/index.js" charset="utf-8"></script>
+</html>
