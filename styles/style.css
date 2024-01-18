@@ -13,7 +13,6 @@
     sans-serif;
   text-align: center;
   color: white;
-
 }
 
 body {
@@ -248,4 +247,9 @@ footer{
 
 .counter-section{
   background-color: #8a2be2;
+}
+
+.counter-section,
+.map-section {
+  width: 100vw;
 }
