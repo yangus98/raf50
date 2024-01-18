@@ -226,7 +226,7 @@ body {
 }
 
 .format-image{
-  width: 500px;
+  width: 100%;
   height: 400px;
 }
 
@@ -252,4 +252,7 @@ footer{
 .counter-section,
 .map-section {
   width: 100vw;
+}
+
+@media (max-width: 768px) {
 }
